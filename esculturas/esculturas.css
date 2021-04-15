@@ -1,0 +1,1310 @@
+body {
+  background-image: url(./../imagenes/esculturas/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-color: #2d2d2d;
+  color: #fff;
+}
+.decoration {
+  z-index: -1;
+  position: fixed;
+  right: 0%;
+  top: 10px;
+}
+nav {
+  background-color: rgb(98, 3, 153);
+}
+.exposicionImg {
+  width: 100%;
+}
+.swiper-slide .text {
+  position: absolute;
+  bottom: 2%;
+}
+
+.swiper-slide .title {
+  position: absolute;
+  bottom: 33%;
+}
+.text a {
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  height: 500px;
+}
+
+.swiper-container {
+  height: 100%;
+  width: 100%;
+}
+
+.container .swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 22px;
+}
+
+.blanco {
+  color: white;
+}
+#fidel {
+  background-image: url(./../imagenes/esculturas/historicos/castroReal.jpg);
+}
+#sh {
+  background-image: url(./../imagenes/esculturas/infantil/shrekReal.jpg);
+}
+#hit {
+  background-image: url(./../imagenes/esculturas/lideres/hitlerReal.jpg);
+}
+
+#capi {
+  background-image: url(./../imagenes/esculturas/infantil/capReal.jpg);
+}
+
+#iron {
+  background-image: url(./../imagenes/esculturas/infantil/tonyReal.jpg);
+}
+
+#fridas {
+  background-image: url(./../imagenes/esculturas/bellas/fridaReal.jpg);
+}
+
+#crs {
+  background-image: url(./../imagenes/esculturas/deportes/crReal.jpg);
+}
+
+#mes {
+  background-image: url(./../imagenes/esculturas/deportes/messiReal.jpg);
+}
+
+#bol {
+  background-image: url(./../imagenes/esculturas/deportes/boltReal.jpg);
+  background-position: top;
+}
+
+#fred {
+  background-image: url(./../imagenes/esculturas/terror/freddyReal.jpg);
+}
+
+#it {
+  background-image: url(./../imagenes/esculturas/terror/esoReal.jpg);
+}
+
+#juangab {
+  background-image: url(./../imagenes/esculturas/espectaculos/juangaReal.jpg);
+}
+
+#jack {
+  background-image: url(./../imagenes/esculturas/espectaculos/jacksonReal.jpg);
+}
+
+#dep {
+  background-image: url(./../imagenes/esculturas/espectaculos/deppReal.jpg);
+}
+
+#syl {
+  background-image: url(./../imagenes/esculturas/espectaculos/sylvesterReal.jpg);
+}
+
+#juanpa {
+  background-image: url(./../imagenes/esculturas/espectaculos/juanReal.jpg);
+}
+.subtema {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 20px;
+}
+
+.linea {
+  width: 15px;
+  height: 50px;
+  margin-left: 10px;
+  float: left;
+}
+
+.nombreSubtema {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: auto;
+}
+
+.banner {
+  width: 100%;
+  height: 40%;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 10%;
+}
+
+.flex {
+  text-align: center;
+}
+
+.card {
+  border-right: transparent;
+  border-radius: 10%;
+  text-align: left;
+  height: 600px;
+  max-width: 250px;
+  margin: 0 50px 2.5%;
+  display: inline-flex;
+}
+.card-body {
+  overflow: auto;
+  height: 60%;
+  color: black;
+}
+
+.infoBanner p {
+  font-size: 24px;
+}
+
+/*PERSONAJES HISTORICOS*/
+#historicos {
+  background-color: rgb(148, 77, 19);
+}
+
+#brown {
+  color: rgb(148, 77, 19);
+}
+
+#juarez {
+  animation: juarez 7s infinite;
+}
+@keyframes juarez {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/historicos/juarezReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/historicos/juarezEscultura.jpg);
+  }
+}
+
+#villa {
+  animation: villa 7s infinite;
+}
+@keyframes villa {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/historicos/villaReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/historicos/villaEscultura.jpeg);
+  }
+}
+
+#zapata {
+  animation: zapata 7s infinite;
+}
+@keyframes zapata {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/historicos/zapataReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/historicos/zapataEscultura.jpg);
+  }
+}
+
+#morelos {
+  animation: morelos 7s infinite;
+}
+@keyframes morelos {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/historicos/morelosReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/historicos/morelosEscultura.jpg);
+  }
+}
+#hidalgo {
+  animation: hidalgo 7s infinite;
+}
+@keyframes hidalgo {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/historicos/hidalgoReal.jpeg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/historicos/hidalgoEscultura.jpg);
+  }
+}
+
+#castro {
+  animation: castro 7s infinite;
+}
+@keyframes castro {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/historicos/castroReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/historicos/castroEscultura.jpg);
+  }
+}
+/*LIDERES MUNDIALES*/
+#lideres {
+  background-color: red;
+}
+#red {
+  color: red;
+}
+
+#che {
+  animation: che 7s infinite;
+}
+@keyframes che {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/cheReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/cheEscultura.jpg);
+  }
+}
+
+#mao {
+  animation: mao 7s infinite;
+}
+@keyframes mao {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/maoReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/maoEscultura.jpg);
+  }
+}
+
+#gandhi {
+  animation: gandhi 7s infinite;
+}
+@keyframes gandhi {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/gandhiReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/gandhiEscultura.jpg);
+  }
+}
+
+#hitler {
+  animation: hitler 7s infinite;
+}
+@keyframes hitler {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/hitlerReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/hitlerEscultura.jpg);
+  }
+}
+
+#slim {
+  animation: slim 7s infinite;
+}
+@keyframes slim {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/slimReal.jpeg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/slimEscultura.jpg);
+  }
+}
+
+#obama {
+  animation: obama 7s infinite;
+}
+@keyframes obama {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/obamaReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/obamaEscultura.jpg);
+  }
+}
+
+#pablo {
+  animation: pablo 7s infinite;
+}
+@keyframes pablo {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/pabloReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/pabloEscultura.jpg);
+  }
+}
+
+#jesus {
+  animation: jesus 7s infinite;
+}
+@keyframes jesus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/lideres/jesusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/lideres/jesusEscultura.jpg);
+  }
+}
+
+/*MUNDO INFANTIL*/
+#infantil {
+  background-color: rgb(0, 102, 255);
+}
+#blue {
+  color: rgb(0, 102, 255);
+}
+
+#chavo {
+  animation: chavo 7s infinite;
+}
+@keyframes chavo {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/chavoReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/chavoEstatua.jpg);
+  }
+}
+#shrek {
+  animation: shrek 7s infinite;
+}
+@keyframes shrek {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/shrekReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/shrekEstatua.jpg);
+  }
+}
+
+#fiona {
+  animation: fiona 7s infinite;
+}
+@keyframes fiona {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/fionaReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/fionaEstatua.jpg);
+  }
+}
+
+#blanca {
+  animation: blanca 7s infinite;
+}
+@keyframes blanca {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/blancaReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/blancaEstatua.jpg);
+  }
+}
+
+#batman {
+  animation: batman 7s infinite;
+}
+@keyframes batman {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/batmanReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/batmanEstatua.jpg);
+  }
+}
+
+#cap {
+  animation: cap 7s infinite;
+}
+@keyframes cap {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/capReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/capEstatua.jpg);
+  }
+}
+
+#reds {
+  animation: reds 7s infinite;
+}
+@keyframes reds {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/redReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/redEstatua.jpg);
+  }
+}
+
+#spidey {
+  animation: spidey 7s infinite;
+}
+@keyframes spidey {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/spideyReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/spideyEstatua.jpg);
+  }
+}
+
+#jocker {
+  animation: jocker 7s infinite;
+}
+@keyframes jocker {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/jokerReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/jokerEstatua.jpg);
+  }
+}
+
+#tony {
+  animation: tony 7s infinite;
+}
+@keyframes tony {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/tonyReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/tonyEstatua.jpg);
+  }
+}
+
+#chabelo {
+  animation: chabelo 7s infinite;
+}
+@keyframes chabelo {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/infantil/chabeloReal.jpeg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/infantil/chabeloEstatua.jpg);
+  }
+}
+/*BELLAS ARTES*/
+
+#bellas {
+  background-color: lightpink;
+}
+
+#artes {
+  color: lightpink;
+}
+
+#pavarotti {
+  animation: pavarotti 7s infinite;
+}
+@keyframes pavarotti {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/bellas/pavarottiReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/bellas/pavarottiEscultura.jpg);
+  }
+}
+
+#placido {
+  animation: placido 7s infinite;
+}
+@keyframes placido {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/bellas/placidoReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/bellas/placidoEscultura.jpg);
+  }
+}
+
+#don {
+  animation: don 7s infinite;
+}
+@keyframes don {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/bellas/donReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/bellas/donEscultura.jpg);
+  }
+}
+
+#sor {
+  animation: sor 7s infinite;
+}
+@keyframes sor {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/bellas/sorReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/bellas/sorEscultura.jpg);
+  }
+}
+
+#rivera {
+  animation: rivera 7s infinite;
+}
+@keyframes rivera {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/bellas/riveraReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/bellas/riveraEscultura.jpg);
+  }
+}
+
+#frida {
+  animation: frida 7s infinite;
+}
+@keyframes frida {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/bellas/fridaReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/bellas/fridaEscultura.jpg);
+  }
+}
+/*DEPORTISTAS*/
+#deportes {
+  background-color: rgb(12, 209, 21);
+}
+
+#deporte {
+  color: rgb(12, 209, 21);
+}
+
+#ali {
+  animation: ali 7s infinite;
+}
+@keyframes ali {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/aliReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/aliEscultura.jpg);
+  }
+}
+
+#santo {
+  animation: santo 7s infinite;
+}
+@keyframes santo {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/santoReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/santoEscultura.jpeg);
+  }
+}
+
+#blued {
+  animation: blued 7s infinite;
+}
+@keyframes blued {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/blueReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/blueEscultura.jpeg);
+  }
+}
+
+#rey {
+  animation: rey 7s infinite;
+}
+@keyframes rey {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/reyReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/reyEscultura.jpg);
+  }
+}
+
+#pele {
+  animation: pele 7s infinite;
+}
+@keyframes pele {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/peleReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/peleEscultura.jpg);
+  }
+}
+
+#messi {
+  animation: messi 7s infinite;
+}
+@keyframes messi {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/messiReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/messiEscultura.jpeg);
+  }
+}
+
+#cr {
+  animation: cr 7s infinite;
+}
+@keyframes cr {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/crReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/crEscultura.jpg);
+  }
+}
+
+#bolt {
+  animation: bolt 7s infinite;
+}
+@keyframes bolt {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/boltReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/boltEscultura.jpg);
+  }
+}
+
+#piojo {
+  animation: piojo 7s infinite;
+}
+@keyframes piojo {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/piojoReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/piojoEscultura.jpg);
+  }
+}
+
+#jordan {
+  animation: jordan 7s infinite;
+}
+@keyframes jordan {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/deportes/jordanReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/deportes/jordanEscultura.jpg);
+  }
+}
+
+/*PERSONAJES DE TERROR*/
+#terror {
+  background-color: rgb(1, 1, 109);
+}
+#terrores {
+  color: rgb(1, 1, 109);
+}
+#gollum {
+  animation: gollum 7s infinite;
+}
+@keyframes gollum {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/gollumReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/gollumEscultura.jpg);
+  }
+}
+
+#lecter {
+  animation: lecter 7s infinite;
+}
+@keyframes lecter {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/lecterReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/lecterEscultura.jpg);
+  }
+}
+
+#chucky {
+  animation: chucky 7s infinite;
+}
+@keyframes chucky {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/chuckyReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/chuckyEscultura.jpg);
+  }
+}
+
+#freddy {
+  animation: freddy 7s infinite;
+}
+@keyframes freddy {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/freddyReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/freddyEscultura.jpg);
+  }
+}
+
+#billy {
+  animation: billy 7s infinite;
+}
+@keyframes billy {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/billyReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/billyEscultura.jpg);
+  }
+}
+
+#eso {
+  animation: eso 7s infinite;
+}
+@keyframes eso {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/esoReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/esoEscultura.jpg);
+  }
+}
+
+#frank {
+  animation: frank 7s infinite;
+}
+@keyframes frank {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/frankReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/frankEscultura.jpg);
+  }
+}
+
+#jason {
+  animation: jason 7s infinite;
+}
+@keyframes jason {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/jasonReal.jpeg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/jasonEscultura.jpg);
+  }
+}
+
+#pinhead {
+  animation: pinhead 7s infinite;
+}
+@keyframes pinhead {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/terror/pinheadReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/terror/pinheadEscultura.jpg);
+  }
+}
+
+/*ESPECTACULOS*/
+#espectaculo {
+  background-color: gold;
+}
+#espectaculos {
+  color: gold;
+}
+#pedro {
+  animation: pedro 7s infinite;
+}
+@keyframes pedro {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/pedroReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/pedroEscultura.jpg);
+  }
+}
+
+#chente {
+  animation: chente 7s infinite;
+}
+@keyframes chente {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/chenteReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/chenteEscultura.jpg);
+  }
+}
+
+#juanga {
+  animation: juanga 7s infinite;
+}
+@keyframes juanga {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/juangaReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/juangaEscultura.png);
+  }
+}
+
+#shakira {
+  animation: shakira 7s infinite;
+}
+@keyframes shakira {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/shakiraReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/shakiraEscultura.jpg);
+  }
+}
+
+#madonna {
+  animation: madonna 7s infinite;
+}
+@keyframes madonna {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/madonnaReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/madonnaEscultura.jpg);
+  }
+}
+
+#justin {
+  animation: justin 7s infinite;
+}
+@keyframes justin {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/justinReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/justinEscultura.jpg);
+  }
+}
+
+#lady {
+  animation: lady 7s infinite;
+}
+@keyframes lady {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/ladyReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/ladyEscultura.png);
+  }
+}
+
+#jackson {
+  animation: jackson 7s infinite;
+}
+@keyframes jackson {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/jacksonReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/jacksonEscultura.jpg);
+  }
+}
+
+#depp {
+  animation: depp 7s infinite;
+}
+@keyframes depp {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/deppReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/deppEscultura.jpg);
+  }
+}
+
+#arnold {
+  animation: arnold 7s infinite;
+}
+@keyframes arnold {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/arnoldReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/arnoldEscultura.jpg);
+  }
+}
+
+#clin {
+  animation: clin 7s infinite;
+}
+@keyframes clin {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/clinReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/clinEscultura.jpg);
+  }
+}
+
+#jolie {
+  animation: jolie 7s infinite;
+}
+@keyframes jolie {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/jolieReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/jolieEscultura.jpg);
+  }
+}
+
+#pitt {
+  animation: pitt 7s infinite;
+}
+@keyframes pitt {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/pittReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/pittEscultura.jpeg);
+  }
+}
+
+#sylvester {
+  animation: sylvester 7s infinite;
+}
+@keyframes sylvester {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/sylvesterReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/sylvesterEscultura.jpg);
+  }
+}
+
+#bruce {
+  animation: bruce 7s infinite;
+}
+@keyframes bruce {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/bruceReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/bruceEscultura.jpg);
+  }
+}
+
+#tom {
+  animation: tom 7s infinite;
+}
+@keyframes tom {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/tomReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/tomEscultura.jpg);
+  }
+}
+
+#juan {
+  animation: juan 7s infinite;
+}
+@keyframes juan {
+  0%,
+  49% {
+    background-image: url(./../imagenes/esculturas/espectaculos/juanReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/esculturas/espectaculos/juan.jpeg);
+  }
+}
+/*pie de pagina*/
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.footer-dark {
+  background-color: #333;
+  color: white;
+  padding: 25px 0px 0px 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
