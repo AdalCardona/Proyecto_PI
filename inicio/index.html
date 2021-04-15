@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/ios/452/museum.png" type="image/png" sizes="64x64" />
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <title>Museo PPSC</title>
+</head>
+
+<body style="background-color: grey;">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://img.icons8.com/ios/452/museum.png" alt="" width="40" height="34"
+                    class="d-inline-block align-top">
+                Museo PPSC
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../pinturas/museo_de_pituras.html">PINTURAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../esculturas/esculturas.html">ESCULTURAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../fosiles/fosiles.html">FOSILES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../carros/carros.html">CARROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../armas/museo_de_armas.html">ARMAS ANTIGUAS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+        style="width: 50%; margin: auto;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./../imagenes/inicio/collage1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./../imagenes/inicio/collage2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./../imagenes/inicio/collage3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./../imagenes/inicio/collage4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="introduccion">
+        <h2>Introduccion de la Página</h2>
+        <p>El Museo Nacional de la PPSC, desde que fue inaugurado en 1990 y a lo largo de su historia centenaria, ha
+            cumplido con la alta misión de conservar, exponer y enriquecer el conjunto de las colecciones y obras de
+            artes como; pinturas, fósiles, carros, armas antiguas, esculturas que, estrechamente vinculadas a la
+            historia del munso, constituyen una de las más elevadas
+            manifestaciones de expresión artística de reconocido valor universal.</p>
+    </div>
+
+    <div class="d-flex flex-wrap" style="margin-top: 50px;">
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/mona-lisa.jpg" class="card-img-top" alt="Pintura Mona Lisa">
+            <div class="card-body">
+                <h5 class="card-title">Mona Lisa</h5>
+                <p class="card-text">También conocida como La Gioconda, es una de las obras más conocidas del artista
+                    italiano Leonardo da Vinci y una de las más visitadas del mundo. Es un gran ejemplo de la técnica
+                    del claroscuro e hipnotiza por la enigmática sonrisa de la dama retratada. Actualmente se exhibe en
+                    el Museo Louvre en París.</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/La_Gioconda" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/juan.jpeg" class="card-img-top" alt="Escultura de Juan">
+            <div class="card-body">
+                <h5 class="card-title">Escultura de Juanpa Zurita</h5>
+                <p class="card-text">Juanpa Zurita se convirtió en el primer influencer en ser reconocido con su propia
+                    figura en el Museo de Cera de la Ciudad de México. El Youtuber develó la escultura el lunes en las
+                    instalaciones del recinto; Marcos de la Fuente, quien encabeza el Taller de escultores del espacio
+                    fue el responsable de la pieza.</p>
+                <div class="acomodo">
+                    <a href="https://www.yucatan.com.mx/espectaculos/juanpa-zurita-tiene-escultura-cera" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/tiranosaurio.jpg" class="card-img-top" alt="Fosil de tiranosaurio">
+            <div class="card-body">
+                <h5 class="card-title">Tiranosaurio Rex</h5>
+                <p class="card-text">Como otros tiranosáuridos, T. rex fue un carnívoro bípedo con un enorme cráneo
+                    equilibrado por una cola larga y pesada. En relación con sus largos y poderosos miembros traseros,
+                    los miembros superiores de Tyrannosaurus eran pequeños, pero sorprendentemente fuertes para su
+                    tamaño, y terminaban en dos dedos con garras.</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/Tyrannosaurus_rex" class="btn btn-primary">Más
+                        información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/primerauto.jpg" class="card-img-top" alt="Carro de Karl benz.">
+            <div class="card-body">
+                <h5 class="card-title">Primer Carro</h5>
+                <p class="card-text">Un 29 de enero de 1886 sucedió uno de los hitos más importantes de la historia de
+                    los vehículos y el principal responsable fue Carl Benz, quien registró el primer vehículo automotor
+                    de combustión interna. La solicitud fue realizada en la Oficina Imperial de Patentes, en Berlín,
+                    Alemania.</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/Benz_Patent-Motorwagen" class="btn btn-primary">Más
+                        información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/primerfusil.png" class="card-img-top" alt="Primer Fusil">
+            <div class="card-body">
+                <h5 class="card-title">Fusil Mondragón</h5>
+                <p class="card-text">Conocido entre los entusiastas de las armas como “el primer rifle semiautomático de
+                    la historia”, el Fusil Mondragón fue creado por el general mexicano Manuel Mondragón quien, años
+                    antes de que estallara la Revolución Mexicana, diseñó un sistema novedoso que podría reemplazar los
+                    rifles de cerrojo que los ejércitos de todo el mundo usaban</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/Fusil_Mondrag%C3%B3n" class="btn btn-primary">Más
+                        información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/la-noche-estrellada.jpg" class="card-img-top" alt="Pintura La Noche Estrellada">
+            <div class="card-body">
+                <h5 class="card-title">La Noche Estrellada</h5>
+                <p class="card-text">Esta obra, por el famoso pintor postimpresionista, es una vista nocturna desde el
+                    sanatorio de Saint Rémy, lugar donde Van Gogh residió pocos meses antes de su muerte. La técnica del
+                    impasto es utilizada por el artista para mostrar una noche inquieta y vibrante, por medio del
+                    contraste entre el amarillo intenso sobre empastes azules. Se exhibe en el Museo de Arte Moderno de
+                    Nueva York.</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/La_noche_estrellada" class="btn btn-primary">Más
+                        información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/juan.jpeg" class="card-img-top" alt="Escultura de Juanpa Zurita">
+            <div class="card-body">
+                <h5 class="card-title">Escultura de Marylin</h5>
+                <p class="card-text">No caben dudas de que Marilyn Monroe se convirtió, luego de su muerte, en un mito.
+                    Un personaje que representa la sensualidad y la belleza de una auténtica diva de Hollywood. Un ícono
+                    que, desde hace unos días y hasta la primavera de 2012, contará con su propia estatua en la ciudad
+                    de Chicago a modo de homenaje.</p>
+                <div class="acomodo">
+                    <a href="https://www.diariodelviajero.com/america/marilyn-monroe-tiene-su-propia-escultura-en-chicago"
+                        class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/velociraptor.jpg" class="card-img-top" alt="Fosil de velociraptor">
+            <div class="card-body">
+                <h5 class="card-title">Velociraptor</h5>
+                <p class="card-text">Tradicionalmente solo se ha reconocido a una especie, V. mongoliensis, cuyos
+                    fósiles se han hallado en Asia Central, en Mongolia, pero una segunda especie, V. osmolskae, fue
+                    nombrada en 2008 a partir de material craneal procedente de Mongolia Interior, en China.</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/Velociraptor" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/tesla.jpeg" class="card-img-top" alt="Tesla Model 3">
+            <div class="card-body">
+                <h5 class="card-title">Tesla Model 3</h5>
+                <p class="card-text">Uno de los carros más populares en los ultimos años por lo que ofrece; cuenta con
+                    un diseño moderno y futurista, carro electrico y lo más espectacular el autopilot uno de los pocos
+                    coches que se puede manejarse solo.</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/Tesla_Model_3" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem" id="card">
+            <img src="./../imagenes/inicio/PPSh-41.jpg" class="card-img-top" alt="Subfusil PPSh-41">
+            <div class="card-body">
+                <h5 class="card-title">PPSH-41</h5>
+                <p class="card-text">El subfusil automático más fiable de la guerra. Producido masivamente en la Unión
+                    Soviética, fácilmente desmontable, resistía tanto la congelación del duro invierno ruso como los
+                    barrizales del buen tiempo. Además, más ligero que las armas alemanas, su cargador en forma de
+                    tambor albergaba más balas, 71, por lo que era muy útil en combates como los de Stalingrado.</p>
+                <div class="acomodo">
+                    <a href="https://es.wikipedia.org/wiki/PPSh-41" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Servicios</h3>
+                        <ul>
+                            <li>Visitas guiadas.</li>
+                            <li>Biblioteca y asesorías escolares.</li>
+                            <li>Renta de espacios para eventos.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Sobre</h3>
+                        <ul>
+                            <li><a href="#">Ubicación <br>
+                                    del <br>
+                                    Museo PPSC</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Museo PPSC</h3>
+                        <p>Nuestro objetivo es difundir las colecciones y su conocimiento, involucrando a todo tipo de
+                            visitantes en un proyecto cultural, abierto y universal.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><img
+                                src="./../imagenes/icons/icono1.svg" /></a><a
+                            href="#"><img
+                                src="./../imagenes/icons/icono2.svg" /></a><a
+                            href="#"><img
+                                src="./../imagenes/icons/icono3.svg" /></a><a
+                            href="#"><img
+                                src="./../imagenes/icons/icono4.svg" /></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Company PPSC © 1990</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
