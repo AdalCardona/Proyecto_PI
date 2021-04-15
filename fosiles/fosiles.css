@@ -1,0 +1,529 @@
+body {
+  background-image: url(./../imagenes/fosiles/fondoFosiles.jpg);
+  background-color: #2d2d2d;
+  background-blend-mode: soft-light;
+  color: white;
+}
+.decoration {
+  z-index: -1;
+  position: fixed;
+  right: 0%;
+  top: 0;
+}
+nav {
+  background-color: rgb(98, 3, 153);
+}
+.exposicionImg {
+  width: 100%;
+}
+
+.swiper-slide .text {
+  position: absolute;
+  bottom: 2%;
+}
+
+.swiper-slide .title {
+  position: absolute;
+  bottom: 33%;
+}
+
+.text a {
+  text-decoration: none;
+}
+.container {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  height: 500px;
+}
+
+.swiper-container {
+  height: 100%;
+  width: 100%;
+}
+
+.container .swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  font-size: 22px;
+}
+
+.blanco {
+  color: white;
+}
+#carnivoro {
+  background-image: url(./../imagenes/fosiles/tiranosaurioReal.jpg);
+}
+#aire {
+  background-image: url(./../imagenes/fosiles/quetzalcoatlusReal.jpg);
+  color: white;
+}
+
+#agua {
+  background-image: url(./../imagenes/fosiles/mosasaurioReal.jpg);
+  color: rgb(252, 252, 252);
+}
+
+#herbivoro {
+  background-image: url(./../imagenes/fosiles/brachiosaurus.jpg);
+  color: white;
+}
+
+.subtema {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 20px;
+}
+
+.linea {
+  width: 15px;
+  height: 50px;
+  margin-left: 10px;
+  float: left;
+}
+
+#carnivoros {
+  background-color: maroon;
+}
+
+.nombreSubtema {
+  font-weight: bold;
+  font-size: 30px;
+  /*background-color: white;*/
+  margin-top: auto;
+}
+
+#maroon {
+  color: maroon;
+}
+
+.banner {
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.infoBanner {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.infoBanner p {
+  font-size: 24px;
+}
+/*dinosaurios carnivoros*/
+
+#velociraptor {
+  animation: velociraptor 7s infinite;
+}
+@keyframes velociraptor {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/velociraptorReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/velociraptor.jpg);
+  }
+}
+
+#allosaurus {
+  animation: allosaurus 7s infinite;
+}
+@keyframes allosaurus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/allosaurusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/allosaurusEsqueleto.jpg);
+  }
+}
+
+#tRex {
+  animation: tRex 7s infinite;
+}
+@keyframes tRex {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/tiranosaurioReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/tiranosaurio.jpg);
+  }
+}
+
+#compsognathus {
+  animation: compsognathus 7s infinite;
+}
+@keyframes compsognathus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/compsognathusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/compsognathusEsqueleto.jpg);
+  }
+}
+
+#gallimimus {
+  animation: gallimimus 7s infinite;
+}
+@keyframes gallimimus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/gallimimusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/gallimimusEsqueleto.jpg);
+  }
+}
+
+/*herbivoros*/
+#herbivoros {
+  background-color: rgb(0, 173, 0);
+}
+#green {
+  color: green;
+}
+
+#diplodocus {
+  animation: diplodocus 7s infinite;
+}
+@keyframes diplodocus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/diplodocusReal.png);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/diplodocusEsqueleto.png);
+  }
+}
+
+#stegosaurus {
+  animation: stegosaurus 7s infinite;
+}
+@keyframes stegosaurus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/stegosaurusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/stegosaurusEsqueleto.jpg);
+  }
+}
+
+#brachiosaurus {
+  animation: brachiosaurus 7s infinite;
+}
+@keyframes brachiosaurus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/brachiosaurus.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/brachiosaurusFosil.jpg);
+  }
+}
+
+#triceratops {
+  animation: triceratops 7s infinite;
+}
+@keyframes triceratops {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/triceraptopsReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/triceratopsFosil.jpg);
+  }
+}
+
+#protoceratops {
+  animation: protoceratops 7s infinite;
+}
+@keyframes protoceratops {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/protoceratops.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/protoceratopsFosil.jpg);
+  }
+}
+
+/*marinos*/
+#marinos {
+  background-color: rgb(0, 102, 255);
+}
+#blue {
+  color: rgb(0, 102, 255);
+}
+#plesiosaurus {
+  animation: plesiosaurus 7s infinite;
+}
+@keyframes plesiosaurus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/plesiosaurusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/plesiosaurusEsqueleto.jpg);
+  }
+}
+
+#kronosaurus {
+  animation: kronosaurus 7s infinite;
+}
+@keyframes kronosaurus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/kronosaurusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/kronosaurusEsqueleto.jpg);
+  }
+}
+
+#mosasaurus {
+  animation: mosasaurus 7s infinite;
+}
+@keyframes mosasaurus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/mosasaurioReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/mosasaurioEsqueleto.jpg);
+  }
+}
+
+#tylosaurus {
+  animation: tylosaurus 7s infinite;
+}
+@keyframes tylosaurus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/tylosaurusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/tylosaurusEsqueleto.jpg);
+  }
+}
+
+#platecarpus {
+  animation: platecarpus 7s infinite;
+}
+@keyframes platecarpus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/platecarpusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/platecarpusEsqueleto.jpg);
+  }
+}
+
+/*voladores*/
+
+#voladores {
+  background-color: skyblue;
+}
+
+#volador {
+  color: skyblue;
+}
+#archaeopteryx {
+  animation: archaeopteryx 7s infinite;
+}
+@keyframes archaeopteryx {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/archaeopteryxReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/archaeopteryxEsqueleto.jpg);
+  }
+}
+
+#iberomesornis {
+  animation: iberomesornis 7s infinite;
+}
+@keyframes iberomesornis {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/iberomesornisReal.png);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/iberomesornisEsqueleto.jpg);
+  }
+}
+
+#quetzalcoatlus {
+  animation: quetzalcoatlus 7s infinite;
+}
+@keyframes quetzalcoatlus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/quetzalcoatlusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/quetzalcoatlusEsqueleto.jpg);
+  }
+}
+
+#ichthyornis {
+  animation: ichthyornis 7s infinite;
+}
+@keyframes ichthyornis {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/ichthyornisReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/ichthyornisEsqueleto.jpg);
+  }
+}
+
+#rhamphorhynchus {
+  animation: rhamphorhynchus 7s infinite;
+}
+@keyframes rhamphorhynchus {
+  0%,
+  49% {
+    background-image: url(./../imagenes/fosiles/rhamphorhynchusReal.jpg);
+  }
+
+  50%,
+  100% {
+    background-image: url(./../imagenes/fosiles/rhamphorhynchusEsqueleto.jpg);
+  }
+}
+/*pie de pagina*/
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.footer-dark {
+  background-color: #333;
+  color: white;
+  margin-top: 45px;
+  padding: 25px 0px 0px 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
