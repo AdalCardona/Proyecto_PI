@@ -117,6 +117,14 @@ nav {
 .infoBanner p {
   font-size: 24px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.bienvenida {
+  font-size: 28px;
+}
 /*dinosaurios carnivoros*/
 
 #velociraptor {

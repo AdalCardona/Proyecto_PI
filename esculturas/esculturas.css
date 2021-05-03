@@ -6,6 +6,9 @@ body {
   background-color: #2d2d2d;
   color: #fff;
 }
+.bienvenida {
+  font-size: 28px;
+}
 .decoration {
   z-index: -1;
   position: fixed;
@@ -51,11 +54,10 @@ nav {
   font-size: 22px;
 }
 
-.blanco {
-  color: white;
-}
 #fidel {
   background-image: url(./../imagenes/esculturas/historicos/castroReal.jpg);
+  color: black;
+  font-weight: bolder;
 }
 #sh {
   background-image: url(./../imagenes/esculturas/infantil/shrekReal.jpg);
@@ -70,6 +72,8 @@ nav {
 
 #iron {
   background-image: url(./../imagenes/esculturas/infantil/tonyReal.jpg);
+  color: black;
+  font-weight: bolder;
 }
 
 #fridas {
@@ -1309,4 +1313,8 @@ nav {
 .containerFooter {
   width: 90%;
   margin: auto;
+}
+
+a {
+  text-decoration: none;
 }
